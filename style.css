@@ -1,0 +1,55 @@
+:root {
+   /*colori*/ 
+   --colore-sfondo-pagina: hsl(212, 11%, 94%);
+   --colore-sfondo-card: hsl(0, 0%, 100%);
+   --colore-titolo: hsl(60, 1%, 100%);
+
+   /*tipografia*/
+   --tipografia-titolo: 700;
+   --tipografia-paragrafoo: 400;
+   
+   /*angoli arrotondati*/
+   --angolo-card: 20px;
+   --angolo-immagine: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--colore-sfondo-pagina);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+h1 {
+    font-size: 21px;
+    font-weight: var(--tipografia-titolo);
+    margin: 15px 0;
+}
+
+p {
+    font-weight: var(--tipografia-paragrafoo);
+    font-size: 11px;
+}
+
+.card {
+    background-color: var(--colore-sfondo-card);
+    max-width: 288px;
+    width: 100%;
+    padding: 20px;
+    border-radius: var(--angolo-card);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: var(--angolo-immagine);
+}
