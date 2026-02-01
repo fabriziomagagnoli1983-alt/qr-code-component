@@ -1,6 +1,6 @@
 :root {
    /*colori*/ 
-   --colore-sfondo-pagina: hsl(212, 11%, 94%);
+   --colore-sfondo-pagina: hsl(212, 45%, 89%);
    --colore-sfondo-card: hsl(0, 0%, 100%);
    --colore-titolo: hsl(60, 1%, 100%);
 
@@ -36,7 +36,7 @@ h1 {
 
 p {
     font-weight: var(--tipografia-paragrafoo);
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .card {
